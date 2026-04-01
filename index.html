@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sistema Escolar PRO</title>
+  <title>701 Sistema Escolar</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <div class="card">
-  <h2>🔐 INGRESA</h2>
-  <input id="user" placeholder="Usuario (minúsculas)">
-  <input id="pass" type="password" placeholder="Contraseña">
+
+  <h1>📚 SOLO PARA USUARIOS DEL CURSO 701</h1>
+  <p>Aquí se pueden ver notas y promedio</p>
+
+  <p id="dateTime"></p>
+
+  <input id="user" placeholder="Usuario">
+  <input id="pass" type="password" placeholder="Contraseña (4 dígitos)">
   <button onclick="login()">Entrar</button>
+
 </div>
+
+<div id="app"></div>
 
 <script src="script.js"></script>
 </body>
